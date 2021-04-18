@@ -75,21 +75,21 @@ void test_state_objectsII(){
 	TEST_ASSERT(list_size(list) == 2);
  }
 
-void test_set_utils(){
-	Set set = set_create( compare_ints, NULL );
+// void test_set_utils(){
+// 	Set set = set_create( compare_ints, NULL );
 
-	for( int i = 1; i <= 10; i++ ){
-		set_insert( set, create_inT(i) );
-	}
+// 	for( int i = 1; i <= 10; i++ ){
+// 		set_insert( set, create_inT(i) );
+// 	}
 
-	int num = 8;
+// 	int num = 8;
 
-	Pointer a = set_find_eq_or_smaller( set, &num );
-	Pointer b = set_find_eq_or_greater( set, &num );
+// 	Pointer a = set_find_eq_or_smaller( set, &num );
+// 	Pointer b = set_find_eq_or_greater( set, &num );
 
-	TEST_ASSERT( *a == 8 );
-	TEST_ASSERT( *b == 8 );
-	}
+// 	TEST_ASSERT( a == 8 );
+// 	TEST_ASSERT( b == 8 );
+// 	}
 
 // Λίστα με όλα τα tests προς εκτέλεση
 TEST_LIST = {
