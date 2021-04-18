@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "acutest.h"			// Απλή βιβλιοθήκη για unit testing
-#include "ADTSet.h"
+// #include "ADTSet.h"
 #include "state.h"
 #include "set_utils.h"
 
@@ -77,9 +77,6 @@ void test_state_objectsII(){
 
 
 
-
-
-
 // void test_set_utils(){
 // 	Set set = set_create( compare_ints, NULL );
 
@@ -92,8 +89,8 @@ void test_state_objectsII(){
 // 	Pointer a = set_find_eq_or_smaller( set, &num );
 // 	Pointer b = set_find_eq_or_greater( set, &num );
 
-// 	TEST_ASSERT( a == 8 );
-// 	TEST_ASSERT( b == 8 );
+// 	TEST_ASSERT( *a == 8 );
+// 	TEST_ASSERT( *b == 8 );
 // 	}
 
 // Λίστα με όλα τα tests προς εκτέλεση
